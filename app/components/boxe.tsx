@@ -53,7 +53,7 @@ const Boxe = () =>{
 
                 </label>
                 <p className='text-black'>
-                    Balance : {balance ? balance.formatted : 'Loading...'}
+                    Balance : {balance ? balance.formatted : '0'}
                 </p>
                 
             </div>
@@ -71,12 +71,10 @@ const Boxe = () =>{
                         className="bg-zinc-300/[0.8] py-4 pl-7 pr-4 w-full rounded-lg text-black py-4"
                     />
             </div>
-            <div className= ''>
-                <button className='w-16 pl-24 pb-12 pt-10 '>
-                    <p className='font-serif text-2xl text-blue-600/100 py-8 w-48 h-10 border-solid border-2 border-indigo-600 rounded-lg'>
-                        CLICK TO SWAP
-                    </p>
-                </button> 
+            <div className='h-28'>
+                <button className="font-serif text-2xl text-blue-600/100  py-2 px-4 ml-24 mt-10 rounded-lg border border-solid border-blue-600">
+                    Click To Swap
+                </button>
             </div>
 
         </div>
