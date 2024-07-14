@@ -22,9 +22,10 @@ const Boxe = () => {
 
     return (
         <div className="h-auto w-96 bg-slate-50 rounded-lg">
-            <p className="font-serif text-2xl text-indigo-600/100 px-40 py-10">
+            <p className="font-serif text-2xl text-indigo-600/100 px-40 py-5">
                 SWAP
             </p>
+            <div className="border-t border-black-300 my-4"></div>
             <div className="h-40 m-2">
                 <Example />
                 <label>
@@ -34,9 +35,9 @@ const Boxe = () => {
                         value={value}
                         onChange={(e) => {
                             setValue(Number(e.target.value))
-                            setExValue(Number(e.target.value) * 3)
+                            setExValue(Number(e.target.value) / 0.6966)
                         }}
-                        className="bg-zinc-300/[0.8] py-4 pl-7 pr-4 w-full rounded-lg text-black py-4"
+                        className="bg-zinc-200/[0.8] py-3 pl-7 pr-4 w-full rounded-lg text-black py-4"
                     />
                 </label>
                 <p className="text-black">
@@ -52,9 +53,9 @@ const Boxe = () => {
                     value={exValue}
                     onChange={(e) => {
                         setExValue(Number(e.target.value))
-                        setValue(Number(e.target.value) / 3)
+                        setValue(Number(e.target.value) * 0.6966)
                     }}
-                    className="bg-zinc-300/[0.8] py-4 pl-7 pr-4 w-full rounded-lg text-black py-4"
+                    className="bg-zinc-200/[0.8] py-3 pl-7 pr-4 w-full rounded-lg text-black py-4"
                 />
             </div>
             <div className="h-28">
