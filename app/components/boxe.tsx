@@ -21,11 +21,11 @@ const Boxe = () => {
     })
 
     return (
-        <div className="h-auto w-96 bg-white rounded-lg">
-            <p className="font-serif text-2xl text-blue-600/100 px-40 py-10">
+        <div className="h-auto w-96 bg-slate-50 rounded-lg">
+            <p className="font-serif text-2xl text-indigo-600/100 px-40 py-10">
                 SWAP
             </p>
-            <div className="h-40">
+            <div className="h-40 m-2">
                 <Example />
                 <label>
                     <input
@@ -44,7 +44,7 @@ const Boxe = () => {
                 </p>
             </div>
 
-            <div>
+            <div className="m-2">
                 <Example />
                 <input
                     type="text"

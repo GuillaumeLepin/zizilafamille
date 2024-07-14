@@ -27,7 +27,7 @@ export default function ButtonAppBar() {
                         component="div"
                         sx={{ flexGrow: 1 }}
                     >
-                        BNS
+                        Dynamic fees
                     </Typography>
                     <DynamicWidget />
                 </Toolbar>

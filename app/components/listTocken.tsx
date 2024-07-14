@@ -64,12 +64,12 @@ const people = [
 ]
 
 export default function Example() {
-    const [selected, setSelected] = useState(people[3])
+    const [selected, setSelected] = useState(people[1])
 
     return (
         <Listbox value={selected} onChange={setSelected}>
             <Label className="block text-sm font-medium leading-6 text-gray-900">
-                Tocken
+                Token
             </Label>
             <div className="relative mt-1">
                 <ListboxButton className="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm sm:leading-6">

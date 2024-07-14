@@ -8,7 +8,7 @@ export default function Main() {
     return (
         <div>
             <ButtonAppBar />
-            <div className=" bg-black text-white grid grid-cols-3">
+            <div className=" bg-gradient-to-r from-violet-100 to-cyan-100 text-white grid grid-cols-3">
                 <div></div>
                 <div className="py-40 px-4">
                     <Boxe />
